@@ -1,6 +1,5 @@
-﻿using System.Reflection;
-
-int number = 55;
+﻿Console.Write("Число:");
+int number = Convert.ToInt32(Console.ReadLine());
 int firstDigit = number/10;
 int secondDigit = number%10;
 int max = 0;
